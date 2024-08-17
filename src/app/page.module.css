@@ -202,6 +202,19 @@
   }
 }
 
+.divBlock {
+  height: 250px; 
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
@@ -227,3 +240,4 @@
     transform: rotate(0deg);
   }
 }
+

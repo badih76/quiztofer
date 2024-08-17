@@ -1,0 +1,87 @@
+.accordion-header {
+    background-color: purple !important;
+    /* display: block;
+    padding: 10px;
+    margin: -10px -15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; */
+  }
+  
+  .accordion-button {
+    background-color: purple !important;
+    color: purple;
+    /* display: block;
+    padding: 10px;
+    margin: -10px -15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; */
+  }
+
+  .card {
+    background-color: purple !important;
+    color: purple;
+    /* display: block;
+    padding: 10px;
+    margin: -10px -15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; */
+  }
+  
+.accordion-button:not(.collapsed) {
+  background-color: rgb(239, 95, 196) !important;
+  color: white !important;
+}
+
+.listContainer {
+  width: 100%;
+  border: solid 1px purple;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 3px 3px 3px rgb(242, 176, 242);
+}
+
+.listItem {
+  width: 100%;
+  /* border-top: solid 1px gray; */
+  font-size: 1em;
+  padding: 3px;
+}
+
+.listItem:nth-child(even) {
+  border-top: solid 1px lightgray;
+  background-color: rgb(255, 216, 223);
+}
+
+.listItemActive {
+  width: 100%;
+  /* border-top: solid 1px gray; */
+  background-color: rgb(255, 186, 199);
+  padding: 3px;
+  border: solid 1px purple;
+  border-radius: 5px;
+}
+
+.headerButton {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  width: 100%;
+  text-align: left;
+  color: purple;
+
+}
+
+.qstCatLabel {
+  min-height: 50px;
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 10px;
+  color: rgb(239, 95, 196);
+}

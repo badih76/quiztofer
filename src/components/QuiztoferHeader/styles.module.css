@@ -1,0 +1,87 @@
+.headerContainer {
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.burgerBlock {
+    width: 5%;
+    font-size: 2.5em; 
+    text-align: left;
+    cursor: pointer;
+    color: white
+}
+
+.logoBlock {
+    width: 10%
+}
+
+.titleBlock {
+    width: 75%; 
+    text-align: center;
+    font-size: large; 
+}
+
+.buttonsBlock {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.offCanvasTitleContainer {
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid purple;
+}
+
+.offCanvasTitleLogo {
+    padding-right: 10px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.offCanvasTitleQiztofer {
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center
+}
+
+.offCanvasMenuContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offCanvasMenuItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.offCanvasMenuItemElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    font-size: 1em;
+    /* color: rgb(144, 53, 196); */
+    color: #fff;
+    text-decoration: none;
+}
+
